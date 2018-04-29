@@ -9,7 +9,8 @@
 import Foundation
 
 class service {
-    func setService() {
-        print("My first cocaPods")
+    public static func setService() -> String{
+        let x = "My first cocaPods"
+        return x
     }
 }
